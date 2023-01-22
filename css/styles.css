@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
   font-size: 18px;
@@ -53,6 +53,10 @@ address {
 }
 
 /* header */
+
+.header{
+background-color: #333333;
+}
 
 .header .container {
   padding-left: 50px;
@@ -102,13 +106,43 @@ address {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url();
+    url(../images/hero/hero-bg.jpg);
+  padding-top: 259px;
+  padding-bottom: 284px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1360px;
+  margin: 0 auto;
+
+  text-align: center;
 }
 .hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: #e9e9e9;
+
+  margin-bottom: 45px;
 }
 .hero-text {
+  font-size: 22px;
+  line-height: 1.67;
+  color: #e9e9e9;
+
+  margin-bottom: 29px;
 }
 .hero-link {
-}
-.link {
+  background-color:var(--accent-color);
+  border-radius: 5px;
+
+font-size: 18px;
+line-height: 1.56;
+color:var(--second-text-color);
+
+display: inline-flex;
+padding:10px 30px 9px 27px;
+align-items: center;
+gap: 5px;
+
 }
