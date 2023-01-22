@@ -12,6 +12,19 @@ body {
   font-size: 18px;
 }
 
+.title-hiden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* reset */
 h1,
 h2,
@@ -145,4 +158,53 @@ padding:10px 30px 9px 27px;
 align-items: center;
 gap: 5px;
 
+}
+
+/* about */
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 19px;
+  background-color: #F4F4F4;
+}
+
+.about .container {
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.about-list {
+  display: flex;
+  gap: 71px;
+
+}
+
+.about-icon-wraper {
+  background-color: var(--accent-color);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.about-item {
+  text-align: center;
+  flex-basis: calc((100% - 142px) / 3);
+}
+
+.about-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.about-text {
+line-height: 1.56;
 }
