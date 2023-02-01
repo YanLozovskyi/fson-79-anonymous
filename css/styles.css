@@ -264,3 +264,88 @@ address {
 
   padding: 11px 27px 12px 42px;
 }
+
+/* cases */
+
+.cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+
+  text-align: center;
+}
+
+.cases-toptitle {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.cases-title {
+  margin-bottom: 34px;
+
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.cases-text {
+  margin-bottom: 39px;
+
+  line-height: 1.56;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 7px;
+}
+
+/* Blog Post */
+
+.blog {
+  display: flex;
+  background-color: #0284d0;
+}
+
+.blog-toptitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #ffffff;
+  margin-top: 112px;
+  margin-left: 30px;
+}
+
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.blog-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-top: 27px;
+  margin-right: 46px;
+  margin-left: 28px;
+}
+
+.blog-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 16px;
+  margin-left: 30px;
+  display: inline-flex;
+  padding: 11px 31px 10px 42px;
+  align-items: center;
+}
