@@ -349,3 +349,93 @@ address {
   padding: 11px 31px 10px 42px;
   align-items: center;
 }
+
+
+/* Team */
+
+.section-team {
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 59px;
+}
+
+.team-top-text {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  color: var(--main-text-color);
+}
+
+.team-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: var(--main-text-color);
+  margin-bottom: 34px;
+}
+
+.team-text {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--main-text-color);
+  margin-bottom: 45px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+}
+
+.team-item {
+  justify-content: center;
+}
+
+.team-item:first-child {
+  margin-right: 19px;
+}
+
+.team-item:last-child {
+  margin-left: 12px;
+}
+
+.team-subtitle {
+  font-weight: 400;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  font-size: 25px;
+  line-height: 1.27;
+}
+
+.team-bottom-text {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--main-text-color);
+}
+
+.social-list {
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  align-items: center;
+  top: 130px;
+  left: 102px;
+}
+
+.social-link {
+  cursor: pointer;
+}
+
+.icon-team {
+  display: inline-block;
+  fill: var(--second-text-color);
+  width: 35px;
+  height: 35px;
+}
+
+.icon-team.linkedin {
+  width: 31px;
+}
+
+.team-item:nth-child(2) {
+  position: relative;
+}
