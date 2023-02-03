@@ -497,3 +497,33 @@ address {
   border: none;
   border-radius: 5px;
 }
+
+/* footer */
+
+.footer {
+  background-color: var(--main-text-color);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-icon {
+  fill: var(--main-bg-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--main-bg-color);
+  padding-bottom: 16px;
+}
