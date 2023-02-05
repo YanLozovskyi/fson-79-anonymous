@@ -11,7 +11,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .title-hiden {
@@ -70,7 +70,8 @@ address {
 /* header */
 
 .header {
-  background-color: #333333;
+  position: absolute;
+  width: 100%;
 }
 
 .header .container {
