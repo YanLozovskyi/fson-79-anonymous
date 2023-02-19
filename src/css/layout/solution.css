@@ -1,0 +1,45 @@
+.solution-container {
+  display: flex;
+  padding: 0;
+}
+
+.solution-text-wrapper {
+  overflow: hidden;
+  width: 50%;
+  max-height: 460px;
+  padding: 84px 44px 84px 30px;
+  background-color: var(--accent-color);
+}
+
+.solution-toptitle {
+  margin-bottom: 5px;
+  color: var(--second-text-color);
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.solution-title {
+  margin-bottom: 26px;
+  color: var(--second-text-color);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.solution-text {
+  margin-bottom: 17px;
+  color: var(--second-text-color);
+  line-height: 1.56;
+}
+
+.solution-btn {
+  display: inline-block;
+
+  padding: 11px 27px 12px 42px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+  line-height: 1.56;
+}

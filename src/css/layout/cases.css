@@ -1,0 +1,41 @@
+.cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+
+  text-align: center;
+}
+
+.cases-toptitle {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.cases-title {
+  margin-bottom: 34px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.cases-text {
+  margin-bottom: 39px;
+
+  line-height: 1.56;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  row-gap: 7px;
+}
+
+.cases-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
+
+.sl-wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}

@@ -1,0 +1,23 @@
+.slick {
+  padding: 200px 0;
+}
+
+.slick-card {
+  background-color: #5e5e5e;
+  padding: 20px 10px;
+  color: #ffffff;
+}
+
+.slick-card:not(:last-child) {
+  margin-right: 40px;
+}
+
+.my-slick-prev {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}
